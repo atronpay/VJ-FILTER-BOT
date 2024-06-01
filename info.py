@@ -47,6 +47,11 @@ DATABASE_URI = "mongodb+srv://snehu:mru@cluster0.htldliw.mongodb.net/?retryWrite
 DATABASE_NAME = "semx"
 COLLECTION_NAME = "Telegram_files"
 # Others
+
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
+
+
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
 VERIFY2_URL = environ.get('VERIFY2_URL', "mdisklink.link")
