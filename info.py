@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = 28760137
 API_HASH = "c84f930b793737e62d5efe74df5d7420"
-BOT_TOKEN = "7349872904:AAFPzIcAKk_-5vKNxXq7N1xZB3WhhrSgpP0"
+BOT_TOKEN = "7079739931:AAHnJyszoUNJV4X0p5L12KnU_3BLxiwWseM"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -49,8 +49,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://snehu:mru@cluster0.htldliw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjfilterbot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Anshrobot2")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ansh robot 2')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
